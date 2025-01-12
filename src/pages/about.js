@@ -8,7 +8,7 @@ import { motion } from "framer-motion"; // Import Framer Motion
 export default function About() {
   return (
     <motion.div
-     className="bg-black text-white overflow-hidden px-6"
+     className="bg-black text-white overflow-hidden px-6 mb-8"
       initial={{ opacity: 0, y: 50 }} // Animasi awal
       animate={{ opacity: 1, y: 0 }} // Animasi akhir
       transition={{ duration: 0.8, ease: "easeOut" }} // Durasi animasi
@@ -22,7 +22,7 @@ export default function About() {
         transition={{ duration: 0.6, delay: 0.2 }}
       >
         {/* Header About Me */}
-        <div className="flex justify-center items-center mb-6">
+        <div className="flex justify-center items-center  ">
           <span className="w-16 h-[2px] bg-white"></span>
           <h1 className="px-4 text-2xl font-bold">About Me</h1>
           <span className="w-16 h-[2px] bg-white"></span>
@@ -41,7 +41,7 @@ export default function About() {
 
       {/* Section Skills */}
       <motion.div
-        className="text-center"
+        className="text-center mb-20"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}

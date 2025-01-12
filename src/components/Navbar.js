@@ -57,7 +57,7 @@ export default function Navbar() {
       </div>
 
       {/* Menu navigasi untuk mobile */}
-      <nav className="md:hidden fixed bottom-0 left-0 w-full bg-black text-white">
+      <nav className="md:hidden fixed bottom-0 left-0 w-full bg-black text-white ">
         <div className="flex justify-around text-xl py-4">
           {[
             { name: "HOME", href: "/#hero" }, // Menuju ID #hero
