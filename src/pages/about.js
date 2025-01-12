@@ -8,7 +8,7 @@ import { motion } from "framer-motion"; // Import Framer Motion
 export default function About() {
   return (
     <motion.div
-     className="bg-black text-white overflow-hidden px-6 py-10"
+     className="bg-black text-white overflow-hidden px-6"
       initial={{ opacity: 0, y: 50 }} // Animasi awal
       animate={{ opacity: 1, y: 0 }} // Animasi akhir
       transition={{ duration: 0.8, ease: "easeOut" }} // Durasi animasi

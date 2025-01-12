@@ -39,7 +39,7 @@ export default function Hero() {
 
   return (
     <motion.div
-      className="flex flex-col md:flex-row items-center justify-center min-h-[80vh] bg-black text-white"
+      className="flex flex-col md:flex-row items-center justify-center min-h-[60vh] bg-black text-white pt-10"
       initial={{ opacity: 0, y: 50 }} // Awal animasi (invisible dan turun 50px)
       animate={{ opacity: 1, y: 0 }} // Akhir animasi (visible dan naik ke posisi semula)
       transition={{ duration: 1, ease: "easeOut" }} // Durasi 1 detik
